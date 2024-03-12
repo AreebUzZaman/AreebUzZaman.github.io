@@ -1,0 +1,26 @@
+[27-Dec-2023 14:18:13 UTC] PHP Warning:  mail() has been disabled for security reasons in /home2/scentsec/public_html/kavan/forms/contact.php on line 11
+[27-Dec-2023 14:20:32 UTC] PHP Warning:  mail() has been disabled for security reasons in /home2/scentsec/public_html/kavan/forms/contact.php on line 15
+[27-Dec-2023 14:25:52 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home2/scentsec/public_html/kavan/forms/contact.php on line 16
+[27-Dec-2023 14:25:52 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home2/scentsec/public_html/kavan/forms/contact.php on line 16
+[27-Dec-2023 14:25:52 UTC] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/scentsec/public_html/kavan/forms/contact.php on line 16
+[27-Dec-2023 14:30:24 UTC] PHP Warning:  require(forms/master/src/PHPMailer.php): failed to open stream: No such file or directory in /home2/scentsec/public_html/kavan/forms/contact.php on line 13
+[27-Dec-2023 14:30:24 UTC] PHP Warning:  require(forms/master/src/PHPMailer.php): failed to open stream: No such file or directory in /home2/scentsec/public_html/kavan/forms/contact.php on line 13
+[27-Dec-2023 14:30:24 UTC] PHP Fatal error:  require(): Failed opening required 'forms/master/src/PHPMailer.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/scentsec/public_html/kavan/forms/contact.php on line 13
+[27-Dec-2023 14:30:53 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home2/scentsec/public_html/kavan/forms/contact.php:19
+Stack trace:
+#0 {main}
+  thrown in /home2/scentsec/public_html/kavan/forms/contact.php on line 19
+[27-Dec-2023 14:32:32 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home2/scentsec/public_html/kavan/forms/contact.php:27
+Stack trace:
+#0 {main}
+  thrown in /home2/scentsec/public_html/kavan/forms/contact.php on line 27
+[27-Dec-2023 14:34:16 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home2/scentsec/public_html/kavan/forms/contact.php:20
+Stack trace:
+#0 {main}
+  thrown in /home2/scentsec/public_html/kavan/forms/contact.php on line 20
+[27-Dec-2023 14:35:12 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home2/scentsec/public_html/kavan/forms/contact.php on line 18
+[27-Dec-2023 14:35:12 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home2/scentsec/public_html/kavan/forms/contact.php on line 18
+[27-Dec-2023 14:35:12 UTC] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/scentsec/public_html/kavan/forms/contact.php on line 18
+[27-Dec-2023 14:40:41 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home2/scentsec/public_html/kavan/forms/contact.php on line 14
+[27-Dec-2023 14:40:41 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home2/scentsec/public_html/kavan/forms/contact.php on line 14
+[27-Dec-2023 14:40:41 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/scentsec/public_html/kavan/forms/contact.php on line 14
