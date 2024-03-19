@@ -1,0 +1,83 @@
+<!-- Accordion Starts -->
+<img src="./assets/images/portfolio/mylinks.png" alt="Image" class="mylinks-img"><br>
+<p style="text-align: center; font-size: x-large; font-family: monospace;">
+  <b>
+  Here are a few links to people, companies, and software vendors that  <br>
+  influenced me and with whom I have interacted during my professional career.<br>
+  In such a fast-paced and always changing industry,<br>
+  I like to check back on these links to stay current and feel inspired.
+</b>
+</p>
+
+<div class="div-accordion" id="mylinks">
+<div class="container text-center">
+  
+  <!-- for softwares used -->
+ <div class="accordion-heading" id="acc_1" (click)="accordion('acc_1')">Softwares I Use <span class="pull-right up-icon" [class.icon]="id==='acc_1'"><i class="fa fa-chevron-up"></i></span></div>
+ <div class="accordion-content nonblock" *ngIf="id === 'acc_1'">
+  <a href="http://www.autodesk.com" target="_blank">Autodesk.com</a><br>
+  <a href="https://www.adobe.com/creativecloud/catalog/desktop.html?promoid=KOVFF" target="_blank">Adobe.com</a><br>
+  <a href="http://www.apple.com" target="_blank">Apple.com</a><br>
+  <a href="http://pixologic.com" target="_blank">Pixologic.com</a><br>
+  <a href="http://www.microsoft.com/pt-br/default.aspx" target="_blank">Microsoft.com</a><br>
+  <a href="http://www.chaosgroup.com/en/2/index.html" target="_blank">VRay</a><br>
+  <a href="https://www.keyshot.com" target="_blank">Keyshot</a><br>
+</div><br>
+
+ <!-- for references & tutorials -->
+ <div class="accordion-heading" id="acc_2" (click)="accordion('acc_2')">Reference & Tutorials<span class="pull-right up-icon" [class.icon]="id==='acc_2'"><i class="fa fa-chevron-up"></i></span></div>
+ <div class="accordion-content nonblock" *ngIf="id === 'acc_2'">
+ <a href="http://www.lynda.com" target="_blank">Lynda.com</a><br>
+<a href="http://www.digitaltutors.com/11/index.php" target="_blank">Digital-Tutors</a><br>
+<a  href="http://cgi.tutsplus.com" target="_blank">CG.Tutsplus.com</a><br>
+<a href="http://www.videocopilot.net" target="_blank">Videocopilot.net</a><br>
+<a href="http://www.zbrushcentral.com/zbc-top-row-gallery.php" target="_blank">ZBrush Central</a><br>
+</div> <br>
+
+ <!-- for companies & networks -->
+ <div class="accordion-heading" id="acc_3" (click)="accordion('acc_3')">Companies & Networks<span class="pull-right up-icon" [class.icon]="id==='acc_3'"><i class="fa fa-chevron-up"></i></span></div>
+ <div class="accordion-content nonblock" *ngIf="id === 'acc_3'">
+ <a href="http://www.martechmedia.com" target="_blank">www.martechmedia.com</a><br>
+ <a href="http://epicstudiosphotography.com" target="_blank">www.epicstudio1.com</a><br>
+ <a href="http://www.slb.com" target="_blank">www.schlumberger.com</a><br>
+ <a href="http://sabastudios.com" target="_blank">sabastudios.com</a><br>
+ <a href="http://ics.art.br" target="_blank">ics.art.br</a><br>
+</div><br>
+
+
+ <!-- for friend's website -->
+ <div class="accordion-heading" id="acc_4" (click)="accordion('acc_4')">Friend's Websites<span class="pull-right up-icon" [class.icon]="id==='acc_4'"><i class="fa fa-chevron-up"></i></span></div>
+ <div class="accordion-content nonblock" *ngIf="id === 'acc_4'">
+ <a href="http://www.ics.art.br/web/marciogomes/" target="_blank">Vidal Fernades Jr</a><br>
+ <a href="http://www.ics.art.br/web/marciogomes/" target="_blank">Marcio Gomes</a><br>
+ <a href="http://kkalem.weebly.com" target="_blank">Kelsey Kalem</a><br>
+ <a href="http://www.camilasalgado.com" target="_blank">Camila Salgado</a><br>
+ <a href="http://www.jorsatti.com" target="_blank">James Orsatti</a><br>
+ <a href="http://jawhitmore.webs.com" target="_blank">Jalil Withmore</a><br>
+ <a href="http://nathantbates.com" target="_blank">Nathan Bates</a><br>
+</div><br>
+
+ <!-- for instructor's sites -->
+ <div class="accordion-heading" id="acc_5" (click)="accordion('acc_5')">Instructor's Sites<span class="pull-right up-icon" [class.icon]="id==='acc_5'"><i class="fa fa-chevron-up"></i></span></div>
+ <div class="accordion-content nonblock" *ngIf="id === 'acc_5'">
+ <a href="http://www.normanengel.com" target="_blank">Norman Engel</a><br>
+ <a href="http://mastein3d.blogspot.com.br" target="_blank">Mariano Stainer</a><br>
+ <a href="http://pkmike.tumblr.com" target="_blank">Mike Azevedo</a><br>
+ <a href="http://www.ics.art.br/paulosampaio/" target="_blank">Paulo Sampio</a><br>
+ <a href="http://carlosluzzi.tumblr.com/" target="_blank">Carlos Luzzi</a><br>
+ <a href="http://www.henriquerainha.com/?page_id=123" target="_blank">Henrique Rainha</a><br>
+ </div><br>
+
+ <!-- for websites Websites Designed by GianBendana-->
+ <div class="accordion-heading" id="acc_6" (click)="accordion('acc_6')">Websites Designed by GianBendana<span class="pull-right up-icon" [class.icon]="id==='acc_6'"><i class="fa fa-chevron-up"></i></span></div>
+ <div class="accordion-content nonblock" *ngIf="id === 'acc_6'">
+ <a href="http://www.gianbendana.com/Baroness_inn_Web_Master/index.html" target="_blank">baronessinn.com</a><br>
+ <a href="http://www.gianbendana.com/LeBonPhotography_website/index.html" target="_blank">lebonphotography.com</a><br>
+ <a href="http://www.gianbendana.com/TommyBishopISD.com/index.html" target="_blank">tommybishop.com</a><br>
+ <a href="http://www.gianbendana.com/team_production_website/index.html" target="_blank">animation production team project 2009</a><br>
+ <a href="http://www.gianbendana.com/acsreunion2024_website/index.html" target="_blank">acsreunion2024</a><br><br>
+</div><br>
+
+</div>
+</div>
+<!-- Accordion Ends -->
